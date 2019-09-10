@@ -1,0 +1,39 @@
+.dialog{
+    background-color: aquamarine;
+    color: #000;
+}
+.dialog__items{
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: 400px;
+    overflow: auto;
+}
+.dialog__item{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.dialog__item:last-child{
+    margin-bottom: 0;
+}
+.dialog__date{
+    color: #777;
+    margin-right: 10px;
+}
+.dialog__add-message{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.dialog__add-message textarea{
+    width: 100%;
+    min-height: 80px;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
+.dialog__add-message button{
+    width: 200px;
+    height: 50px;
+    outline: none;
+    margin-top: 5px;
+}

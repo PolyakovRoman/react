@@ -1,0 +1,8 @@
+.messages{
+    width: 800px;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
